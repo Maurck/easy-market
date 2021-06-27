@@ -9,9 +9,9 @@
 # Rutas
 <h2> Productos </h2>
 
-1. Obtener productEntities: GET http://localhost:5000/easy-market/api/products/all
-2. Obtener productEntity por id: GET http://localhost:5000/easy-market/api/products/{id}
-3. Guardar productEntity: POST http://localhost:5000/easy-market/api/products<br>
+1. Obtener productos: GET http://localhost:5000/easy-market/api/products/all
+2. Obtener producto por id: GET http://localhost:5000/easy-market/api/products/{id}
+3. Guardar producto: POST http://localhost:5000/easy-market/api/products<br>
 Ejemplo de Body: 
 <pre>
 {
@@ -23,13 +23,13 @@ Ejemplo de Body:
  }
 </pre>
 
-4. Borrar productEntity: DELETE http://localhost:5000/easy-market/api/products/{id}
+4. Borrar producto por id: DELETE http://localhost:5000/easy-market/api/products/{id}
 <h2> Compras </h2>
 
-1. Obtener purchaseEntities: GET http://localhost:5000/easy-market/api/purchases/all
-2. Obtener purchaseEntity por id: GET http://localhost:5000/easy-market/api/purchases/{id}
-3. Obtener purchaseEntity por id del clientEntity: GET http://localhost:5000/easy-market/api/purchases/client/{id}
-4. Guardar purchaseEntity: POST http://localhost:5000/easy-market/api/purchases<br>
+1. Obtener compras: GET http://localhost:5000/easy-market/api/purchases/all
+2. Obtener compra por id: GET http://localhost:5000/easy-market/api/purchases/{id}
+3. Obtener compra por id del cliente: GET http://localhost:5000/easy-market/api/purchases/client/{id}
+4. Guardar compra: POST http://localhost:5000/easy-market/api/purchases<br>
 Ejemplo de body:
 <pre>
 {
@@ -42,7 +42,7 @@ Ejemplo de body:
 }
 </pre>
 
-5. Borrar purchaseEntity: DELETE http://localhost:5000/easy-market/api/purchases/{id}
+5. Borrar compra por id: DELETE http://localhost:5000/easy-market/api/purchases/{id}
  # Documentacion (Swagger)
  1. Acceder a traves del siguiente link: http://localhost:5000/easy-market/api/swagger-ui.html
  # Seguridad (Spring Security)
